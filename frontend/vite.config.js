@@ -12,4 +12,8 @@ export default defineConfig({
       plugins: [tailwind()],
     },
   },
+  server: {
+    host: true,
+    allowedHosts: ['property-search-frontend-0zxe.onrender.com'], // allow Render's domain
+  },
 });
